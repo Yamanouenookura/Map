@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マップマーカーアプリ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <h1>マップマーカーアプリ</h1>
+    <div id="map"></div>
+    <div class="controls">
+        <input type="text" id="map-name" placeholder="マップ名を入力">
+        <button id="save-map">保存</button>
+        <select id="load-map">
+            <option value="">保存済みマップを選択</option>
+        </select>
+        <button id="reset">リセット</button>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
